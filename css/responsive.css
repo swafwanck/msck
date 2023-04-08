@@ -1140,6 +1140,107 @@ form textarea{
 }
 }
 
+
+@media(max-width:350px){
+    .home-hr{
+      left:37px;
+    }
+    .contact-form form input,
+  form textarea{
+      padding: 7px;
+      width:250px;
+      border-radius: 5px;
+      font-size: 14px;
+  }
+  .list li {
+      display: block;
+  }
+  .list li a {
+     margin-left: 0;
+     margin-top: 10px;
+  }
+  .list{
+      margin-left: 5px;
+  }
+  .contact-icons{
+      margin-left: 5px;
+      
+  }
+  .contact-icons a{
+      margin-right: 14px;
+  }
+  .contact-icons i{
+      margin-right: 0;
+  }
+  .last-text p {
+      font-size: 14px;
+      width:190px
+  }
+  .row .proimg{
+      width:250px;
+      height:192px;
+      padding: 0;
+  }
+  .layer {
+      width:255px;
+      padding:0 10px;
+  }
+  .portfolio .wrapper .portfolio-content{
+      margin-left: 32px;
+  }
+  .portfolio .wrapper{
+      width:100%;
+  }
+  .box h3 {
+      font-size: 15px;
+  }
+  .box {
+      width:250px;
+  }
+  .services .services-content{
+      margin-left: 20px;
+      margin-right: -10px;
+  }
+  .skills .wrapper .myskills .front .skill-front{
+      width:280px;
+  }
+  .about-text{
+      margin-left:-50px;
+  }
+  .about-text p{
+      width:250px;
+      margin-top: 320px;
+  }
+  .about-img{
+      width:200px;
+      height:200px;
+      left:120px;
+  }
+  .home .myimg .profimg{
+  width:170px;
+  }
+  .home .myimg{
+      width:170px;
+      height: 160px;
+      top:260px;
+      right:60px;
+  }
+  .home-text h3 {
+      font-size: 19px;
+  }
+  .home-text h1{
+      font-size: 19px;
+  }
+  .home-text{
+      margin-top: 600px;
+  }
+  .about{
+      margin-top:280px;
+  }
+  }
+
+
+
 @media(max-width:321px){
   .home-hr{
     left:33px;
