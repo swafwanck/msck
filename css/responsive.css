@@ -934,6 +934,10 @@ form textarea {
     .home-hr{
         left:50px;
     }
+    .home-text{
+        margin-left: 15px;
+        margin-top: 780px;
+    }
     .home .myimg{
         right:105px; 
         width:220px; 
@@ -966,6 +970,9 @@ form textarea {
     }
     .list{
         margin-top: 420px;
+    }
+    .about{
+        margin-top: 350px;
     }
 }
 
