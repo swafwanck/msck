@@ -1141,6 +1141,92 @@ form textarea {
    }
    }
 
+
+   @media(max-width:386px){
+    .home-hr{
+       left:40px;
+    }
+    .home .myimg{
+       right:55px; 
+       width:210px; 
+       height: 190px;
+    }
+    .home .myimg .profimg{
+       width:195px;
+       top:-40px;
+    }
+   
+    .two-1{
+       font-size:25px;
+   }
+   .two-2{
+       font-size:19px;
+   }  
+   .home-text h1{
+       font-size: 20px;
+   } 
+   .home-text h3{
+       font-size: 20px;
+   }
+   .home-text p {
+       font-size: 15px;
+       width:250px;
+   }
+   .home-text {
+       margin-left: 10px;
+   
+   }
+   .row .proimg{
+       width:280px;
+       height:200px;
+   }
+   .layer {
+       width:285px;
+       padding:0 15px;
+   }
+   .portfolio .wrapper .portfolio-content{
+       margin-left: 35px;
+   }
+   .portfolio .wrapper {
+       width:95%;
+   }
+   .contact{
+       margin-left: -10px;
+   }
+   .skills .wrapper h1{
+       font-size:25px;
+   }
+   .contact .wrapper .contact-text h2 {
+       font-size: 25px;
+   }
+   .contact-text h4{
+       font-size: 17px;
+       margin-left: 8px;
+   }
+   .contact-form{
+       left:-17px;
+   }
+   .contact-form form input,
+   form textarea{
+       padding: 5px;
+       width:260px;
+   }
+   
+   .contact-form .submit{
+       font-size: 17px;
+   }
+   .list li a {
+      margin-left: 10px;
+   }
+   .list li i{
+       font-size: 25px;
+   }
+   .list{
+       margin-left: -7px;
+   }
+   }
+
+
 @media(max-width:376px){
  .home-hr{
     left:40px;
