@@ -936,7 +936,7 @@ form textarea {
     }
     .home-text{
         margin-left: 15px;
-        margin-top: 780px;
+        margin-top: 760px;
     }
     .home .myimg{
         right:105px; 
@@ -972,7 +972,7 @@ form textarea {
         margin-top: 420px;
     }
     .about{
-        margin-top: 350px;
+        margin-top: 320px;
     }
 }
 
@@ -1095,7 +1095,8 @@ form textarea {
        width:250px;
    }
    .home-text {
-       margin-left: 10px;
+       margin-left: 15px;
+       margin-top: 760px;
    
    }
    .row .proimg{
@@ -1145,6 +1146,9 @@ form textarea {
    }
    .list{
        margin-left: -7px;
+   }
+   .about{
+    margin-top: 320px;
    }
    }
 
