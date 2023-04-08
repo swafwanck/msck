@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MSCK | Portfolio</title>
+    <!---custom css link---->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="icon" type="image/png" href="./img/logo-i.png" />
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="./js/script.js" defer></script>
+    
+  </head>
+  <body>
+    <!------Header Section------>
+
+    <header>
+      <div class="wrapper">
+        <a href="#" class="logo"
+          ><div class="logo-img">
+            <h3><span>MS</span>CK</h3>
+          </div>
+        </a>
+        <ul class="navlist">
+          <i class="bx bx-x" onclick="hidemenu()"></i>
+          <li onclick="hidemenu()"><a href="#home" class="active">Home</a></li>
+          <li onclick="hidemenu()"><a href="#about">About Me</a></li>
+          <li onclick="hidemenu()"><a href="#skills">Skills</a></li>
+          <li onclick="hidemenu()"><a href="#services">Services</a></li>
+          <li onclick="hidemenu()"><a href="#portfolio">My Works</a></li>
+          <li onclick="hidemenu()"><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <div class="button">
+          <a href="pdf/msck.pdf" download class="btn">Download CV</a>
+        </div> 
+         <div class="bx bx-menu" id="menu-icon" onclick="showmenu()"></div>
+        
+      </div>
+      <hr class="headborder" />
+    </header>
+
+    <!---------Home Section--------------->
+    <section class="home" id="home">
+      <div class="wrapper">
+        <hr class="home-hr" />
+
+        <hr class="home-hr1" />
+
+        <div class="home-text" data-aos="fade-up" data-aos-duration="2000">
+          <div class="slide">
+            <h5 class="two-1">Hi</h5>
+            <h5 class="two-2">, I'm</h5>
+          </div>
+          <h1>Muhammed Swafwan C K</h1>
+          <h3>Full Stack <span class="dev">Developer.</span></h3>
+          <p>
+            A Skilled Full Stack Developer with expertise in both Front End and Back End Development, as well as Mobile App Development
+          </p>
+          <div class="button">
+            <a href="#" class="btn">Contact Us</a>
+          </div>
+        </div>
+        <div class="myimg" data-aos="fade-left" data-aos-duration="2000">
+          <div class="profimg" >
+            <img src="./img/swafwanck.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------about Section --------------->
+    <section class="about" id="about">
+      <div class="wrapper">
+        <div class="about-img" data-aos="fade-right" data-aos-duration="2000">
+          <img src="./img/dev-safwan.jpeg" />
+        </div>
+
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <h4>Indroduction</h4>
+          <p>
+            I'm Muhammed Swafwan C K, a Full Stack Developer who specializes in
+            creating intuitive, user-friendly applications that cater to
+            clients' specific needs. My extensive experience in both Front End
+            and Back End Development, as well as Mobile App Development, allows
+            me to deliver exceptional results that will take your business to
+            the next level. Whether you're looking to enhance your web presence
+            or develop a powerful mobile app, I have the technical know-how and
+            skills to bring your ideas to life. So, trust me to create
+            innovative digital solutions that will exceed your expectations.
+          </p>
+          <a href="pdf/msck.pdf" download class="btn">Download C V </a>
+        </div>
+      </div>
+    </section>
+    <!-----------Skill Section-------------->
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h1><span>my</span> Skills</h1>
+        <div class="myskills">
+          <div class="front" data-aos="fade-up" data-aos-duration="2000">
+            <div class="skill-front" onclick="showdown()">
+              <h3>UI Development</h3>
+              <i class="bx bx-chevron-down"></i>
+            </div>
+            <div class="skill-frontitem">
+              <div class="frontitem1">
+                <div class="html">
+                  <h3>HTML/CSS</h3>
+                </div>
+              </div>
+              <div class="frontitem2">
+                <div class="css">
+                  <h3>JS</h3>
+                </div>
+              </div>
+
+              <div class="frontitem3">
+                <div class="git">
+                  <h3>GIT</h3>
+                </div>
+              </div>
+
+              <div class="frontitem4">
+                <div class="react">
+                  <h3>REACT</h3>
+                </div>
+              </div>
+
+              <div class="frontitem5">
+                <div class="jquery">
+                  <h3>jquery</h3>
+                </div>
+              </div>
+              <div class="frontitem6">
+                <div class="bootsass">
+                  <h3>bootstrap / sass</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="front" data-aos="fade-up" data-aos-duration="2000">
+            <div class="skill-front" onclick="backshow()">
+              <h3>Backend Development</h3>
+              <i class="bx bx-chevron-down"></i>
+            </div>
+            <div class="skill-frontitem2">
+              <div class="forntitem1">
+                <div class="python">
+                  <h3>Python</h3>
+                </div>
+              </div>
+
+              <div class="frontitem2">
+                <div class="django">
+                  <h3>Django</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="front" data-aos="fade-up" data-aos-duration="2000">
+            <div class="skill-front" onclick="appshow()">
+              <h3>Mobile application Development</h3>
+              <i class="bx bx-chevron-down"></i>
+            </div>
+            <div class="skill-frontitem3">
+              <div class="frontitem1">
+                <div class="native">
+                  <h3>React native</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="front" data-aos="fade-up" data-aos-duration="2000">
+            <div class="skill-front" onclick="designshow()">
+              <h3>UX/UI Design</h3>
+              <i class="bx bx-chevron-down"></i>
+            </div>
+            <div class="skill-frontitem4">
+              <div class="frontitem1">
+                <div class="figma">
+                  <h3>figma</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------Skill Section-------------->
+    <!-----------Services Section-------------->
+    <section class="services" id="services">
+      <div class="wrapper">
+        <div class="main-text">
+          <h2>My <span>Services</span></h2>
+        </div>
+        <div class="services-content">
+          <div class="box" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="s-icons">
+              <i class="bx bx-code-alt"></i>
+            </div>
+            <h3>Frontend Developer</h3>
+          </div>
+
+          <div class="box"data-aos="zoom-in" data-aos-duration="2000">
+            <div class="s-icons">
+              <i class="bx bx-server"></i>
+            </div>
+            <h3>Backend Developer</h3>
+          </div>
+
+          <div class="box"data-aos="zoom-in" data-aos-duration="2000">
+            <div class="s-icons">
+              <i class="bx bx-edit-alt"></i>
+            </div>
+            <h3>UX/UI Design</h3>
+          </div>
+          <div class="box"data-aos="zoom-in" data-aos-duration="2000">
+            <div class="s-icons">
+              <i class="bx bxl-android"></i>
+            </div>
+            <h3>Mobile Application Developer</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------Portfolio Section--------------->
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper">
+        <div class="main-text">
+          <h2>My<span> Works</span></h2>
+        </div>
+        <div class="portfolio-content">
+          <div class="row" data-aos="flip-up" data-aos-duration="2000">
+            <div class="proimg">
+              <img src="./img/minimal.png" />
+            </div>
+            <div class="layer">
+              <h5>Minimal</h5>
+              <p>
+                The static new project start using minimal
+              </p>
+              <a href=" https://swafwanck.github.io/Minimal/" target="blank"> <i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="row" data-aos="flip-right" data-aos-duration="2000">
+            <div class="proimg">
+              <img src="./img/jnearts.png" />
+            </div>
+            <div class="layer">
+              <h5>College Website</h5>
+              <p>
+                The official website of our campus
+                Jamia Nadwiyya Arts and Science College
+              </p>
+              <a href="https://jneartscollege.com/" target="blank"> <i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="row" data-aos="flip-left" data-aos-duration="2000">
+            <div class="proimg">
+              <img src="./img/lisa.png" />
+            </div>
+            <div class="layer">
+              <h5>Portfolio Website</h5>
+              <p>
+                The static Lisa protfolio website
+              </p>
+              <a href="https://swafwanck.github.io/test/" target="blank"> <i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="row" data-aos="flip-up" data-aos-duration="2000">
+            <div class="proimg">
+              <img src="./img/automotive.png" />
+            </div>
+            <div class="layer">
+              <h5>Automotive</h5>
+              <p>
+                All bike and scooter body parts website 
+              </p>
+              <a href="https://swafwanck.github.io/Automotive/" target="blank"> <i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="row"data-aos="flip-down" data-aos-duration="2000">
+            <div class="proimg">
+              <img src="./img/jntc.png" />
+            </div>
+            <div class="layer">
+              <h5>B.Ed collage</h5>
+              <p>
+                The Dynamic website of B.Ed College at edavanna
+                
+              </p>
+              <a href="https://jntcedavanna.com/" target="blank"> <i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="row" data-aos="flip-right" data-aos-duration="2000">
+            <div class="proimg">
+              <img src="./img/global.png" />
+            </div>
+            <div class="layer">
+              <h5>Global Award</h5>
+              <p>
+                The Global Awards publishing website 
+              </p>
+              <a href="https://swafwanck.github.io/GlobalAwards/" target="blank"> <i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!------------------Contact section------------>
+    <section class="contact" id="contact">
+      <div class="wrapper">
+        <div class="contact-text">
+          <h2>Contact <span>Me!</span></h2>
+          <h4>If you have any project in your mind.</h4>
+
+          <div class="list">
+            <li>
+              <i class="bx bx-phone-call"></i><a href="#">+91 8301847136</a>
+            </li>
+            <li>
+              <i class="bx bxl-gmail"></i
+              ><a href="#">muhammedswafwanck@gmail.com</a>
+            </li>
+          </div>
+
+          <div class="contact-icons">
+            <a href="https://github.com/swafwanck" target="blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/swafwanck" target="blank"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://wa.me/+918301847136"target="blank"><i class="bx bxl-whatsapp"  ></i></a>
+            <a href="https://www.linkedin.com/in/muhammedswafwanck/"target="blank"><i class="bx bxl-linkedin" ></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="" method="" id="contact-form" >
+            <input type="text" placeholder="Your Name " required  id="name"/>
+            <input type="email" placeholder="Your Email " required id="email"/>
+            <input type="number" placeholder="your Mobile Number" required id="number" />
+            <textarea
+              name=""
+              id="message"
+              cols="35"
+              rows="10"
+              placeholder="How Can I Help You "
+              required
+            ></textarea>
+            <input type="submit" value="Send" class="submit" required id="submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!---------End Section---------->
+    <section class="end">
+      <div class="wrapper">
+        <div class="last-text">
+          <div class="coright">
+            <i class="bx bx-copyright"></i>
+            <p class="hi">
+              All Right Reserved | Design and Developed by <span>MS</span>CK
+            </p>
+          </div>
+        </div>
+        <div class="top">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </div>
+    </section>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
