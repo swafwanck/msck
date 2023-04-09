@@ -758,11 +758,10 @@ font-size:23px;
         width:275px;
         height:250px;
     }
-    .home{
-        margin-top: -20px;
-    }
+  
     .home-text{
-        margin-top: 900px;
+        margin-top: 880px;
+        margin-left: 18px;
     }
     .about{
         margin-top: 450px;
@@ -1197,9 +1196,12 @@ form textarea {
        font-size: 15px;
        width:250px;
    }
+   .about{
+    margin-top: 310px;
+   }
    .home-text {
        margin-left: 10px;
-   
+       margin-top: 750px;
    }
    .row .proimg{
        width:280px;
@@ -1284,8 +1286,11 @@ form textarea {
 }
 .home-text {
     margin-left: 10px;
-
+    margin-bottom: -40px;
 }
+.about{
+    margin-top: 250px;
+   }
 .row .proimg{
     width:280px;
     height:200px;
