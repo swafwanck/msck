@@ -861,6 +861,11 @@ form textarea {
 }
 .home .myimg{
     right:150px;
+    
+}
+.home-text{
+    margin-left:15px;
+    margin-top: 900px;
 }
 
 .row {
@@ -873,6 +878,9 @@ form textarea {
 .layer {
     width:365px;
     padding:0 15px 0 15px;
+}
+.about{
+    margin-top: 416px;
 }
 
 }
@@ -901,6 +909,12 @@ form textarea {
     .home-text p {
         font-size: 16px;
         width:380px;
+    }
+    .home-text{
+        margin-top: 850px;
+    }
+    .about{
+        margin-top: 350px;
     }
     .about-img{
         position: absolute;
