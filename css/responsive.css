@@ -949,8 +949,10 @@ form textarea {
         left:50px;
     }
     .home-text{
-        margin-left: 15px;
-        margin-top: 760px;
+        margin-top: 750px;
+    }
+    .about{
+        margin-top: 290px;
     }
     .home .myimg{
         right:105px; 
@@ -985,9 +987,7 @@ form textarea {
     .list{
         margin-top: 420px;
     }
-    .about{
-        margin-top: 320px;
-    }
+    
 }
 
 @media(max-width:426px){
@@ -1019,7 +1019,7 @@ form textarea {
         margin-top: 350px;
      }
      .about{
-        margin-top:360px;
+        margin-top:320px;
      }
      .contact-form form input,
      form textarea{
