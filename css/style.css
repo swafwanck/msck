@@ -416,14 +416,11 @@ span {
       transition:all 1s ease-in;
   }
   
-  .skills .wrapper .myskills .front .skill-frontitem2.active{
-    transition:all 0.5s ease-in;
-     
-      visibility: visible;
-      height: 120px;
-    
-  
-  }
+.skills .wrapper .myskills .front .skill-frontitem2.active {
+    transition: all 0.5s ease-in;
+    visibility: visible;
+    height: 158px;
+}
   .skills .wrapper .myskills .front .skill-frontitem2.active h3{
       transition:all 1s ease-in;
       
